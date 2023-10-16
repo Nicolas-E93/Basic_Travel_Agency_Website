@@ -293,6 +293,56 @@ section .paris_container .paris_container_text {
     height: auto;
 }
 
+/*STYLES FOR IMGS SECTION 2 - ABOUT US*/
+
+.container_imgs_section_2_about_us {
+    display: flex;
+}
+
+.img_1 {
+    background-color: #423f3f;
+    background-image: url("https://www.lpcentre.com/storage/images/articles/16555693720.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 100px;
+    width: 33.3%;
+    height: 100vh;
+}
+
+.img_2 {
+    background-color: #423f3f;
+    background-image: url("https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/370564672.jpg?k=8231a32ede50f5d1f15ee992530735d10dc16ce48cae7f5e165c74ba108c4d1b&o=");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 100px;
+    width: 33.3%;
+    height: 100vh;
+}
+
+.img_3 {
+    background-color: #423f3f;
+    background-image: url("https://i2-prod.dailypost.co.uk/incoming/article18591589.ece/ALTERNATES/s1200c/1_Revamp-of-Avanti-West-Coast-Voyager-trains.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 100px;
+    width: 33.3%;
+    height: 100vh;
+}
+
+.a_img_about {
+    font-size: 150%;
+    margin-left:30%
+    
+}
+
+
+
 /*STYLES FOR SECTION 2 - INDEX******************************************************/
 
 h4 {
