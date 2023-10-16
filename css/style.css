@@ -1,0 +1,581 @@
+/*GENERAL STYLES*/
+
+* {
+    margin: 0;
+    min-height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: light;
+}
+
+.a_reserve_button {
+    text-align: center;
+    background-color: #008170;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 21%;
+}
+
+.a_reserve_button:hover {
+    background-color: #03584f;
+}
+
+html {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*STYLES FOR NAV*****************************************************/
+
+nav {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 40px;
+
+}
+
+.logo {
+    width: 150px;
+    margin-left: 20%;
+    margin-top: 10px
+}
+
+.div_nav_container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+li {
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+/*STYLES FOR HEADER INDEX*****************************************************/
+
+header {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    height: 50%;
+    width: 100%;
+    min-height: 70vh;
+}
+
+h1 {
+    margin-left: 3%;
+    font-size: 400%;
+
+}
+
+h2 {
+    margin-left: 3%;
+    font-weight: lighter;
+
+
+}
+
+/*ADDITIONAL HEADER STYLES ABOUT_US*/
+.img_header {
+    background-color: #434343;
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/210712231918-underscored-unidentified-commercial-airplane-flying-in-sky-during-sunset.jpg?q=w_3200,h_1800,x_0,y_0,c_fill");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:multiply;
+    
+    padding-top: 50PX;
+    padding-bottom: 50PX;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*STYLES FOR SECTION 1 - INDEX******************************************************/
+
+h3 {
+    color: white;
+    font-size: 200%;
+    margin-left: 19px
+}
+
+p {
+    margin: 5%;
+    color: rgb(172, 158, 158);
+    text-align: justify;
+}
+
+
+/*ALL ABOUT ORLANDO*/
+
+.orlando {
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.orlando_container {
+    display: flex;
+    width: 100%;
+}
+
+
+section .orlando_container .orlando_container_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+/*ALL ABOUT MIAMMI*/
+
+.miami {
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.miami_container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section .miami_container .miami_container_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+/*ALL ABOUT AUSTRALIA*/
+
+.melbourne {
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.melbourne_container {
+    display: flex;
+    flex-direction: row;
+}
+
+section .melbourne_container .melbourne_container_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+/*ALL ABOUT CANCUN*/
+
+.cancun {
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.cancun_container {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+section .cancun_container .cancun_container_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+/*ALL ABOUT PARIS*/
+
+.paris {
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+.paris_container {
+    display: flex;
+    flex-direction: row
+}
+
+section .paris_container .paris_container_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+/*STYLES FOR SECTION ABOUt US******************************************************/
+
+.text_container_about_section {
+    display: flex;
+}
+
+.text_container_about_section div {
+    width: 50%;
+}
+
+.text_container_about_section div p {
+    width: 80%;
+    height: auto;
+}
+
+.text_container_about_section_2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text_container_about_section_2 div {
+    width: 50%;
+}
+
+.text_container_about_section_2 div p {
+    width: 80%;
+    height: auto;
+}
+
+/*STYLES FOR SECTION 2 - INDEX******************************************************/
+
+h4 {
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+h5 {
+    font-size: 25px;
+    color: rgb(63, 61, 61);
+}
+
+.card_text {
+    color: rgb(31, 29, 29);
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_card {
+    width: 25%;
+    margin: 20px;
+}
+
+.card_container_elements {
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 18px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.img_section_2 {
+    width: 23%;
+    border-radius: 10px;
+}
+
+.container_imgs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container_background_imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h6_1 {
+    font-size: 50px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 200px;
+    background-image: url("https://statics.forbesargentina.com/2023/06/64944f2ba671b.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.h6_2 {
+    font-size: 40px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 200px;
+    background-image: url("https://www.shutterstock.com/image-photo/two-cheerful-businessman-shaking-hands-260nw-605518085.jpg");
+    background-position: center;
+}
+
+/*FOOTER******************************************************/
+
+footer {
+    width: 100%;
+    height:auto;
+    background-color: #333333;
+    margin-top: auto;
+}
+
+.container_footer_1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.h6_3 {
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10%;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border:white;
+}
+ 
+.container_footer_2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.h6_4 {
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social_media_logos {
+    width: 15%;
+}
+
+/*MEDIA QUERIES******************************************************/
+
+/*TABLET STYLES*/
+
+@media screen and (max-width:800px) {
+
+    .card_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_container_elements {
+        width: 60%;
+    }
+
+    .container_background_imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 450px;
+    }
+
+    .orlando_container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .miami_container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .melbourne_container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .cancun_container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .paris_container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .container_imgs {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+    }
+
+    .img_section_2 {
+        width: 42%;
+        border-radius: 10px;
+    }
+    
+}
+
+/*MOBILE STYLES*/
+
+@media screen and (max-width:524px) {
+    h1 {
+        font-size: 260%;
+    }
+
+    .orlando {
+        border-radius: 15px;
+        box-shadow: none;
+    }
+
+    .miami {
+        border-radius: 15px;
+        box-shadow: none;
+    }
+
+    .melbourne {
+        border-radius: 15px;
+        box-shadow: none;
+    }
+
+    .cancun {
+        border-radius: 15px;
+        box-shadow: none;
+    }
+
+    .paris {
+        border-radius: 15px;
+        box-shadow: none;
+    }
+
+    .card_container_elements {
+        display: block;
+    }
+
+    .container_imgs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 660px;
+
+    }
+
+    .h6_1 {
+        font-size: 32px;
+    }
+
+    .h6_2 {
+        font-size: 26px;;
+    }
+
+    .container_footer_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .social_media_logos {
+        width: 50%;
+        margin-left: 130px;
+        margin-top: 30px;
+
+    }
+
+
+
+}
