@@ -298,6 +298,7 @@ section .paris_container .paris_container_text {
     background-size: cover;
     background-position: center;
 
+    
     padding-top: 100px;
     width: 33.3%;
     height: 100vh;
@@ -330,7 +331,33 @@ section .paris_container .paris_container_text {
 .a_img_about {
     font-size: 150%;
     margin-left:30%
-    
+}
+
+/*STYLES FOR BOOTSTRAP CAROUSEL*******************************/
+.img_bootstrap {
+    width: 100%;
+}
+
+#carouselExampleCaptions {
+    width: 50%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.carousel_text {
+    color: white;
+}
+
+
+#first_id {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /*STYLES FOR SECTION 2 - INDEX******************************************************/
