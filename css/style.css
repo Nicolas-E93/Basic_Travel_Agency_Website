@@ -36,7 +36,6 @@ html {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 body {
@@ -60,7 +59,6 @@ nav {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     min-height: 40px;
-
 }
 
 .logo {
@@ -72,8 +70,6 @@ nav {
 .div_nav_container {
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .nav_container {
@@ -81,13 +77,11 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20px;
-
 }
 
 li {
     text-decoration: none;
     margin-left: 20px;
-
 }
 
 /*STYLES FOR HEADER INDEX*****************************************************/
@@ -109,17 +103,15 @@ header {
 h1 {
     margin-left: 3%;
     font-size: 400%;
-
 }
 
 h2 {
     margin-left: 3%;
     font-weight: lighter;
-
-
 }
 
 /*ADDITIONAL HEADER STYLES ABOUT_US*/
+
 .img_header {
     background-color: #434343;
     background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/210712231918-underscored-unidentified-commercial-airplane-flying-in-sky-during-sunset.jpg?q=w_3200,h_1800,x_0,y_0,c_fill");
@@ -341,12 +333,9 @@ section .paris_container .paris_container_text {
     
 }
 
-
-
 /*STYLES FOR SECTION 2 - INDEX******************************************************/
 
 h4 {
-
     color: white;
     font-size: 30px;
     text-align: center;
