@@ -120,7 +120,7 @@ h2 {
     font-weight: lighter;
 }
 
-/*ADDITIONAL HEADER STYLES ABOUT_US*/
+/*ADDITIONAL HEADER STYLES "ABOUT_US" */
 
 .img_header {
     background-color: #434343;
@@ -134,6 +134,31 @@ h2 {
     box-sizing: border-box;
     
 }
+
+/*ADDITIONAL STYLES FOR HEADER "SERVICES" */
+
+.services_header h1 {
+    text-align: center;
+}
+
+.services_header h2 {
+    text-align: center;
+}
+
+.services_header {
+    background-color: #746e6e;
+    background-image: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/18725/images/mM87l2ZsQRSawMLLRlFF_FallLandscape7-.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: multiply;
+
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
 
 
 
