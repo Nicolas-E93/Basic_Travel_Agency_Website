@@ -15,10 +15,22 @@ a {
     font-weight: light;
 }
 
+div ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: light;
+}
+
+
+
+div ul li a:hover {
+    color: rgb(214, 154, 41);
+}
+
 .a_reserve_button {
     display: inline-block;
     text-align: center;
-    background-color: #008170;
+    background-color: #03584f;
     border-radius: 10px;
     margin-left: 5px;
     font-size: 22px;
@@ -28,7 +40,7 @@ a {
 
 
 .a_reserve_button:hover {
-    background-color: #03584f;
+    background-color: #008170;
 }
 
 html {
@@ -169,25 +181,24 @@ h2 {
 .schedule_button {
     margin-left: 45%;
     border: black;
-    background-color: #008170;
     box-sizing: border-box;
     padding: 10px;
     border-radius: 13px;
 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.schedule_button:hover {
     background: #4b6cb7;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #182848, #4b6cb7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.schedule_button:hover {
+    ox-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
