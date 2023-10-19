@@ -528,12 +528,12 @@ animation-play-state: paused;
 }
 
 .logos-slide {
-    animation: 25s slide infinite linear;
+    animation: 20s slide infinite linear;
     display: inline-block;
 }
 
 .logos-slide img {
-    height: 80px;
+    height: 60px;
     margin: 0 40px;
 }
 
