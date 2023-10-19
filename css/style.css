@@ -507,6 +507,37 @@ h5 {
     background-position: center;
 }
 
+/*-------STYLES FOR SECTION 1 SERVICES ------- */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+}
+
+.logos:hover .logos-slide {
+animation-play-state: paused;
+}
+
+.logos-slide {
+    animation: 25s slide infinite linear;
+    display: inline-block;
+}
+
+.logos-slide img {
+    height: 80px;
+    margin: 0 40px;
+}
+
+
 /*FOOTER******************************************************/
 
 footer {
