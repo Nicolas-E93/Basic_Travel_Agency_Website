@@ -16,14 +16,16 @@ a {
 }
 
 .a_reserve_button {
+    display: inline-block;
     text-align: center;
     background-color: #008170;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 5px;
     font-size: 22px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 21%;
+    width: 29%;
 }
+
 
 .a_reserve_button:hover {
     background-color: #03584f;
@@ -321,7 +323,7 @@ section .paris_container .paris_container_text {
 
 }
 
-/*STYLES FOR SECTION ABOUt US******************************************************/
+/*STYLES FOR SECTION ABOUt US*/
 
 .text_container_about_section {
     display: flex;
