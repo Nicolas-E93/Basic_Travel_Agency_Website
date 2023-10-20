@@ -59,7 +59,6 @@ html {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 body {
@@ -109,6 +108,10 @@ nav {
 li {
     text-decoration: none;
     margin-left: 20px;
+}
+
+li:hover {
+    color:  rgb(214, 154, 41)
 }
 
 /*STYLES FOR HEADER INDEX*****************************************************/
@@ -409,6 +412,10 @@ section .paris_container .paris_container_text {
 .a_img_about {
     font-size: 150%;
     margin-left: 30%
+}
+
+.a_img_about:hover {
+    color:  rgb(214, 154, 41);
 }
 
 /*STYLES FOR BOOTSTRAP CAROUSEL*******************************/
@@ -716,7 +723,6 @@ input {
         flex-direction: column;
         width: 100%;
         height: 660px;
-
     }
 
     .h6_1 {
@@ -732,16 +738,13 @@ input {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .social_media_logos {
         width: 50%;
         margin-left: 130px;
         margin-top: 30px;
-
     }
-
-
-
 }
+
+
