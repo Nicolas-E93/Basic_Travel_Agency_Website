@@ -557,6 +557,39 @@ animation-play-state: paused;
     margin: 0 40px;
 }
 
+/*-------STYLES FOR SECTION 2 SERVICES ------- */
+
+.section_2 {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.img_services {
+    width: 60%;
+    border-radius: 50px;
+}
+
+.img_serv_flex {
+    width: 40%;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.flex_container_david {
+    display: flex;
+
+
+}
+
 
 /*FOOTER******************************************************/
 
