@@ -197,7 +197,7 @@ h2 {
 }
 
 .schedule_button:hover {
-    ox-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -206,10 +206,6 @@ h2 {
 }
 
 /*-----------ADDITIONAL STYLES FOR LIFEMILES HEADER-----------*/
-
-.lifemiles_header {
-    
-}
 
 
 /*STYLES FOR SECTION 1 - INDEX******************************************************/
