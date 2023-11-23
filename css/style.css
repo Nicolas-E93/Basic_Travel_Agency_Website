@@ -111,7 +111,7 @@ li {
 }
 
 li:hover {
-    color:  rgb(214, 154, 41)
+    color: rgb(214, 154, 41)
 }
 
 /*STYLES FOR HEADER INDEX*****************************************************/
@@ -210,9 +210,41 @@ h2 {
     background-color: rgb(151, 142, 142);
     background-image: url("https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/SOBK0622029_1560x880_desktop.jpeg");
     background-blend-mode: multiply;
-    height:100vh
-
+    height: 100vh
 }
+
+/*--------------STYLES FOR GRID-------------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Adjust column width as needed */
+    gap: 20px;
+    /* Adjust gap between grid items */
+    margin: 30px;
+}
+
+/* Styling for each grid item */
+.grid-item {
+    border: 1px solid #ddd;
+    /* Example border style */
+    padding: 20px;
+    /* Adjust padding as needed */
+    text-align: center;
+    /* Center align content */
+}
+
+/* Style for images within grid items */
+.grid-item img {
+    max-width: 100%;
+    /* Ensure images don't exceed container width */
+    height: 400px;
+}
+
+.titled {
+    color: rgb(219, 206, 206);
+}
+
 
 
 
@@ -423,7 +455,7 @@ section .paris_container .paris_container_text {
 }
 
 .a_img_about:hover {
-    color:  rgb(214, 154, 41);
+    color: rgb(214, 154, 41);
 }
 
 /*STYLES FOR BOOTSTRAP CAROUSEL*******************************/
@@ -540,6 +572,7 @@ h5 {
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-100%);
     }
@@ -552,7 +585,7 @@ h5 {
 }
 
 .logos:hover .logos-slide {
-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 .logos-slide {
@@ -787,5 +820,3 @@ input {
         margin-top: 30px;
     }
 }
-
-
