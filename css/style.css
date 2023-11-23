@@ -143,7 +143,7 @@ h2 {
 /*ADDITIONAL HEADER STYLES "ABOUT_US" */
 
 .img_header {
-    background-color: #434343;
+    background-color: #4d4747;
     background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/210712231918-underscored-unidentified-commercial-airplane-flying-in-sky-during-sunset.jpg?q=w_3200,h_1800,x_0,y_0,c_fill");
     background-position: center;
     background-size: cover;
@@ -206,6 +206,14 @@ h2 {
 }
 
 /*-----------ADDITIONAL STYLES FOR LIFEMILES HEADER-----------*/
+.img_header_lifemiles {
+    background-color: rgb(151, 142, 142);
+    background-image: url("https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/SOBK0622029_1560x880_desktop.jpeg");
+    background-blend-mode: multiply;
+    height:100vh
+
+}
+
 
 
 /*STYLES FOR SECTION 1 - INDEX******************************************************/
