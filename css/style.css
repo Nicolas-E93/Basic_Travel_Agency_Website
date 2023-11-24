@@ -219,7 +219,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* Adjust column width as needed */
-    gap: 20px;
+    gap: 50px;
     /* Adjust gap between grid items */
     margin: 30px;
 }
@@ -631,7 +631,6 @@ h5 {
 
 }
 
-
 /*FOOTER******************************************************/
 
 footer {
@@ -684,7 +683,7 @@ input {
     width: 15%;
 }
 
-/*MEDIA QUERIES******************************************************/
+/*------------------------------------------MEDIA QUERIES/*------------------------------------------*/
 
 /*TABLET STYLES*/
 
@@ -761,6 +760,7 @@ input {
 @media screen and (max-width:524px) {
     h1 {
         font-size: 260%;
+        margin-top: 56px;
     }
 
     .orlando {
@@ -792,6 +792,10 @@ input {
         display: block;
     }
 
+    .img_card {
+        display: none;
+    }
+
     .container_imgs {
         display: flex;
         flex-direction: column;
@@ -801,10 +805,12 @@ input {
 
     .h6_1 {
         font-size: 32px;
+        width: 85%;
     }
 
     .h6_2 {
         font-size: 26px;
+        width: 85%;
         ;
     }
 
