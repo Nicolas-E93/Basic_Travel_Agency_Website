@@ -209,6 +209,7 @@ h2 {
 .img_header_lifemiles {
     background-color: rgb(151, 142, 142);
     background-image: url("https://d32ijn7u0aqfv4.cloudfront.net/wp/wp-content/uploads/raw/SOBK0622029_1560x880_desktop.jpeg");
+    background-size: cover;
     background-blend-mode: multiply;
     height: 100vh
 }
@@ -451,7 +452,7 @@ section .paris_container .paris_container_text {
 
 .a_img_about {
     font-size: 150%;
-    margin-left: 30%
+    margin-left: 30%;
 }
 
 .a_img_about:hover {
@@ -683,20 +684,20 @@ input {
     width: 15%;
 }
 
-/*------------------------------------------MEDIA QUERIES/*------------------------------------------*/
+/*-------------------------MEDIA QUERIES/*-------------------------
 
-/*TABLET STYLES*/
+/*-------------------------TABLET STYLES-------------------------*/
 
 @media screen and (max-width:800px) {
 
-    .card_container {
+    .card_container { /*DISPLAYS THE THREE CARDS IN COLUMN*/
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .card_container_elements {
+    .card_container_elements { /*DEFINED CARD WIDTH*/
         width: 60%;
     }
 
@@ -707,6 +708,8 @@ input {
         justify-content: space-around;
         height: 450px;
     }
+
+    /*STYLES FOR INDEX*/
 
     .orlando_container {
         display: flex;
@@ -753,18 +756,56 @@ input {
         border-radius: 10px;
     }
 
+    /*STYLES FOR ABOUT US*/
+
+    .text_container_about_section div {
+        width: 100%;
+    }
+
+    .text_container_about_section_2 div {
+        width:100%
+    }
+
+    .text_container_about_section_2 div h3 {
+        text-align: end;
+        margin-right: 90px;
+    }
+
+    .img_1 {
+        padding: 20px;
+    }
+    .img_2 {
+        padding: 20px;
+    }
+    .img_3 {
+        padding: 20px;
+    }
+
+    .a_img_about {
+        font-size: 130%;
+        margin-left: 30%;
+    }
+
+    #carouselExampleCaptions {
+        width: 75%
+    }
+
+
+
 }
 
-/*MOBILE STYLES*/
+/*---------------------MOBILE STYLES-----------------------*/
 
 @media screen and (max-width:524px) {
-    h1 {
+    h1 { 
         font-size: 260%;
         margin-top: 56px;
     }
 
+    /*index*/
+
     .orlando {
-        border-radius: 15px;
+        border-radius: 15px; 
         box-shadow: none;
     }
 
@@ -788,22 +829,24 @@ input {
         box-shadow: none;
     }
 
-    .card_container_elements {
+    .card_container_elements { /*DISPLAYS THE IMGS IN BLOCK*/
         display: block;
     }
 
-    .img_card {
+    .img_card {  /*HIDES IMGES WHEN MOBILE RESOLUTION*/
         display: none;
     }
 
-    .container_imgs {
+    .container_imgs { /*DISPLAYS CARDS IN COLUMN*/
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 660px;
     }
 
-    .h6_1 {
+    /*WAS ABLE TO ELONGATE THE CARDS USING THE H6*/
+
+    .h6_1 { 
         font-size: 32px;
         width: 85%;
     }
@@ -811,8 +854,12 @@ input {
     .h6_2 {
         font-size: 26px;
         width: 85%;
-        ;
+        
     }
+
+
+
+    /*FOOTER*/
 
     .container_footer_2 {
         display: flex;
