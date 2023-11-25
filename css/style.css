@@ -808,26 +808,34 @@ input {
     .container_imgs_section_2_about_us {
         display: flex;
         flex-direction: column;
+    }
 
-        .img_1 {
-            width: 100%;
-
-        }
-
-        .img_2 {
-            width: 100%;
-
-        }
-
-        .img_3 {
-            width: 100%;
-
-        }
+    .img_1 {
+        width: 100%;
 
     }
 
+    .img_2 {
+        width: 100%;
 
+    }
 
+    .img_3 {
+        width: 100%;
+
+    }
+
+}
+
+/*STYLES FOR SERVICES*/
+.img_serv_flex {
+    width: 70%;
+    margin-left: 80px;
+}
+
+.flex_container_david {
+    display: flex;
+    flex-direction: column;
 }
 
 /*---------------------MOBILE STYLES-----------------------*/
@@ -914,5 +922,12 @@ input {
         width: 50%;
         margin-left: 130px;
         margin-top: 30px;
+    }
+
+    /*MOBILE STYLES FOR SERVICES*/
+    .img_serv_flex {
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
     }
 }
