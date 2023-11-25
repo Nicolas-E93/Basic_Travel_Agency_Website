@@ -378,10 +378,11 @@ section .paris_container .paris_container_text {
 
 }
 
-/*STYLES FOR SECTION ABOUt US*/
+/*------------------------STYLES FOR SECTION ABOUt US/*------------------------*/
 
 .text_container_about_section {
     display: flex;
+
 }
 
 .text_container_about_section div {
@@ -690,14 +691,16 @@ input {
 
 @media screen and (max-width:800px) {
 
-    .card_container { /*DISPLAYS THE THREE CARDS IN COLUMN*/
+    .card_container {
+        /*DISPLAYS THE THREE CARDS IN COLUMN*/
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .card_container_elements { /*DEFINED CARD WIDTH*/
+    .card_container_elements {
+        /*DEFINED CARD WIDTH*/
         width: 60%;
     }
 
@@ -756,6 +759,14 @@ input {
         border-radius: 10px;
     }
 
+    .h6_1 {
+        width: 570px;
+    }
+
+    .h6_2 {
+        width: 570px;
+    }
+
     /*STYLES FOR ABOUT US*/
 
     .text_container_about_section div {
@@ -763,7 +774,7 @@ input {
     }
 
     .text_container_about_section_2 div {
-        width:100%
+        width: 100%
     }
 
     .text_container_about_section_2 div h3 {
@@ -774,9 +785,11 @@ input {
     .img_1 {
         padding: 20px;
     }
+
     .img_2 {
         padding: 20px;
     }
+
     .img_3 {
         padding: 20px;
     }
@@ -790,6 +803,29 @@ input {
         width: 75%
     }
 
+    /*STYLES FOR ABOUT US SECTION 2*/
+
+    .container_imgs_section_2_about_us {
+        display: flex;
+        flex-direction: column;
+
+        .img_1 {
+            width: 100%;
+
+        }
+
+        .img_2 {
+            width: 100%;
+
+        }
+
+        .img_3 {
+            width: 100%;
+
+        }
+
+    }
+
 
 
 }
@@ -797,7 +833,7 @@ input {
 /*---------------------MOBILE STYLES-----------------------*/
 
 @media screen and (max-width:524px) {
-    h1 { 
+    h1 {
         font-size: 260%;
         margin-top: 56px;
     }
@@ -805,7 +841,7 @@ input {
     /*index*/
 
     .orlando {
-        border-radius: 15px; 
+        border-radius: 15px;
         box-shadow: none;
     }
 
@@ -829,15 +865,18 @@ input {
         box-shadow: none;
     }
 
-    .card_container_elements { /*DISPLAYS THE IMGS IN BLOCK*/
+    .card_container_elements {
+        /*DISPLAYS THE IMGS IN BLOCK*/
         display: block;
     }
 
-    .img_card {  /*HIDES IMGES WHEN MOBILE RESOLUTION*/
+    .img_card {
+        /*HIDES IMGES WHEN MOBILE RESOLUTION*/
         display: none;
     }
 
-    .container_imgs { /*DISPLAYS CARDS IN COLUMN*/
+    .container_imgs {
+        /*DISPLAYS CARDS IN COLUMN*/
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -846,7 +885,7 @@ input {
 
     /*WAS ABLE TO ELONGATE THE CARDS USING THE H6*/
 
-    .h6_1 { 
+    .h6_1 {
         font-size: 32px;
         width: 85%;
     }
@@ -854,9 +893,13 @@ input {
     .h6_2 {
         font-size: 26px;
         width: 85%;
-        
+
     }
 
+    /*STYLES FOR BOOTSTRAP CAROUSEL*/
+    #carouselExampleCaptions {
+        width: 100%;
+    }
 
 
     /*FOOTER*/
