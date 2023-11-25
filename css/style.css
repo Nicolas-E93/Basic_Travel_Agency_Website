@@ -621,7 +621,7 @@ h5 {
 }
 
 .img_serv_flex {
-    width: 40%;
+    width: 50%;
     height: 500px;
     margin-top: 30px;
     border-radius: 40px;
@@ -629,7 +629,7 @@ h5 {
 
 .flex_container_david {
     display: flex;
-
+    flex-direction: row;
 
 }
 
@@ -825,18 +825,22 @@ input {
 
     }
 
+    .flex_container_david {
+        display: flex;
+        flex-direction: column;
+    }
+
+     /*STYLES FOR SERVICES*/
+     .img_serv_flex {
+        width: 70%;
+        margin-left: 80px;
+    }
+    
 }
 
-/*STYLES FOR SERVICES*/
-.img_serv_flex {
-    width: 70%;
-    margin-left: 80px;
-}
 
-.flex_container_david {
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 /*---------------------MOBILE STYLES-----------------------*/
 
@@ -930,4 +934,6 @@ input {
         margin-left: 0px;
         height: auto;
     }
+
+
 }
